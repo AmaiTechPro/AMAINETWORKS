@@ -1,0 +1,73 @@
+img{
+width: 3%;
+
+
+
+}
+
+
+main{
+
+height: 100%;
+width: 100%;
+display: 1 0;
+padding: 10px;
+
+
+
+}
+
+footer{
+    background-color: chartreuse;
+
+
+}
+
+#btn{
+
+background-color: chartreuse;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+
+@media (max-width:768px){
+#mainind{
+flex-direction: column;
+text-align: center;
+width: 100%;
+padding: 10px 0;
+}
+}
+
+
+
+html,body{
+margin: 0;
+    height: 100%;
+}
+
+
+body{
+
+    display: flex;
+flex-direction: column;
+
+}
+
+
+main{
+
+    flex: 1;
+}
+
+
+
+
+
+
+
+

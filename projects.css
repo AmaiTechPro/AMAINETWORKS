@@ -1,0 +1,89 @@
+
+
+
+#btn{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: chartreuse;
+
+}
+
+footer{
+background-color: chartreuse;
+
+
+
+}
+
+
+img{
+width: 3%;
+
+
+
+}
+
+
+button{
+width: 20%;
+color: chartreuse;
+text-align: center;
+
+
+}
+
+
+main{
+margin: 10px;
+padding: 10px;
+}
+
+h1{
+
+
+    text-shadow: 2px 2px blue;
+}
+
+
+
+@media (max-width:768px){
+#mainpro{
+flex-direction: column;
+text-align: center;
+width: 100%;
+padding: 10px 0;
+}
+}
+
+html,body{
+margin: 0;
+    height: 100%;
+}
+
+
+body{
+
+    display: flex;
+flex-direction: column;
+
+}
+
+
+main{
+
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+

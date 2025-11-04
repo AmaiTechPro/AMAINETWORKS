@@ -1,0 +1,58 @@
+
+#btn{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: chartreuse;
+
+}
+
+footer{
+background-color: chartreuse;
+
+
+
+}
+
+
+img{
+width: 3%;
+
+
+
+}
+
+@media (max-width:768px){
+#mainabo{
+flex-direction: column;
+text-align: center;
+width: 100%;
+padding: 10px 0;
+}
+}
+
+
+html,body{
+margin: 0;
+    height: 100%;
+}
+
+
+body{
+
+    display: flex;
+flex-direction: column;
+
+}
+
+
+main{
+
+    flex: 1;
+}
+
+
+
+
+
